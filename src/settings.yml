@@ -1,0 +1,36 @@
+#  _______              _   _            _       _                       _                                                 
+# |__   __|            (_) | |          | |     | |                     | |                                                
+#    | |    __      __  _  | |_    ___  | |__   | |       _   _   _ __  | | __   ___   _ __        ___    ___    _ __ ___  
+#    | |    \ \ /\ / / | | | __|  / __| | '_ \  | |      | | | | | '__| | |/ /  / _ \ | '__|      / __|  / _ \  | '_ ` _ \ 
+#    | |     \ V  V /  | | | |_  | (__  | | | | | |____  | |_| | | |    |   <  |  __/ | |     _  | (__  | (_) | | | | | | |
+#    |_|      \_/\_/   |_|  \__|  \___| |_| |_| |______|  \__,_| |_|    |_|\_\  \___| |_|    (_)  \___|  \___/  |_| |_| |_| 
+#
+
+# The operating system this program is running on: (windows/linux/raspberrypi).
+system: windows
+
+# The channel you wish to lurk on. Just the channel name, not the link.
+channel: thomaskeig
+
+# The delay in seconds to check if the streamer is live. Reccomended: 300
+delay: 300
+
+twitch:
+    # Put your access token for twitch here. To see how to get this read twitchlurker.com/getapi
+    accesstoken: XXXXX
+    
+    # Put your client id for twitch here. To see how to get this read twitchlurker.com/getapi
+    clientid: XXXXX
+
+#All configurations for PushBullet integration
+pushbullet:
+
+    # Should the pushbullet integration be enabled? (true/false)
+    enabled: false
+    
+    # Should pushbullet post the stream thumbnail when the streamer goes live? (true/false)
+    thumbnail: true
+
+    # Put your access token for pushbullet here. To see how to get this read twitchlurker.com/pushbullet
+    # If pushbullet is disabled this wont take affect.
+    accesstoken: XXXXX
