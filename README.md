@@ -61,6 +61,6 @@
 ###### 240 / HOUR (WATCHING BONUS)
 ###### 400 / HOUR (SPECIAL BONUSES)
 ###### 450 / STREAM (WATCH STREAK)
-####### 250 / STREAM (RAID)
+###### 250 / STREAM (RAID)
 
 -------------
